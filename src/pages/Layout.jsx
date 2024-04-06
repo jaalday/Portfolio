@@ -1,22 +1,14 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 
-import Navigation from "../components/Navigation"
-import Footer from "../components/Footer"
-
-
-const primaryNav = [
-    {title: 'about', url: "/about"},
-    {title: 'contact', url: "/contact"},
-]
+import Footer from "../components/Footer";
 
 const Layout = () => {
-    return (
-        <>
-        <Navigation navItems={primaryNav}/>
-        <Outlet/>
-        <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Outlet />
+      <Footer />
+    </>
+  );
 };
 
 export default Layout;

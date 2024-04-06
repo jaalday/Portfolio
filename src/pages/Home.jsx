@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
@@ -6,39 +7,44 @@ const Home = () => {
         <div className="img-box">
           <img
             className="home-img"
-            src="https://r2.erweima.ai/stablediffusion/c52659567de94a42aaf394fe86fe275a_ComfyUI_67253_.png"
             alt="Picture of portrait Jaclyn Alday"
+            src="https://i.postimg.cc/rs3FzSSm/jaclyn-pic.png"
+            // src="https://drive.usercontent.google.com/download?id=1-JUNgVOrGTKhc08O4iG9Bn0sjz3S0WG5&export=view&authuser=0"
           />
         </div>
         <div className="home-text">
           <h1>Jaclyn Alday</h1>
+          <h3>Software Developer</h3>
 
           <div className="paragraph">
-            <h3>Software Engineer</h3>
-
             <p>
               {" "}
-              Hello! I'm Jaclyn!, a fresh-faced software developer with a
+              Hello! I'm Jaclyn! a fresh-faced software developer with a
               colorful past. Before diving into the world of coding, I spent
               years as a dedicated vet tech, nurturing both animals and my
-              problem-solving skills. In my downtime, I indulge my creative side
-              as an artist, finding joy in bringing imagination to life through
-              various mediums.
+              problem-solving skills. I enjoy the creative freedom coding brings
+              and look forward to continue to learn and create.
               <br />
-              <br />
-              Now, armed with a newfound passion for programming, I'm excited to
-              merge my love for problem-solving and creativity in the tech
-              world. With a background in caring for others and a knack for
-              visual expression, I'm eager to bring a fresh perspective to
-              software development. Let's create something amazing together!{" "}
+              <br />{" "}
             </p>
-            <div className="contact-button">
+            <div>
               <Link to="/contact">
-                <h3>Contact Me!</h3>
+                <h3 className="contact-button">Contact Me!</h3>
               </Link>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="container-2">
+        <h2 className="h2-projects">Projects</h2>
+        <div className="card-1">
+          <h2>Pet MD</h2>
+        </div>
+        <div className="card-2">
+          <h2>Shooter Kitty</h2>
+        </div>
+        <div className="card-3">fljghfd</div>
       </div>
     </>
   );
