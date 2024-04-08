@@ -1,0 +1,90 @@
+.background {
+  width: 100%;
+  background-attachment: fixed;
+  position: static;
+}
+.backgroundimg {
+   
+  background-image: fixed;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  margin-top: -1000px;
+
+
+  width: 100%;
+}
+.text1 {
+  padding-left: 70px;
+  padding-right: 110px;
+  margin-top: 13%;
+  margin-left: 9%;
+  padding-top: 7%;
+  width: 60%;
+  background-color: rgba(229, 235, 233, 0.8);
+  padding-bottom: 5%;
+  font-size: 19px;
+  border: 2px solid green;
+  color: rgb(58, 91, 58);
+}
+.text {
+  animation: fadeIn 1s ease-in-out;
+  font-size: 20px;
+  font-weight: bold;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.profilepic {
+  float: right;
+  margin-right: 10%;
+  width: 26%;
+  margin-top: -500px;
+  border-radius: 20%;
+}
+.projects {
+  
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  color: antiquewhite;
+  background-color: rgb(61, 80, 51);
+}
+.react {
+  display: inline-block;
+  margin-top: 30px;
+  width: 10%;
+}
+.vite {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 9%;
+}
+.js {
+  width: 10%;
+  display: inline-block;
+  margin-top: 27px;
+  margin-left: 10px;
+}
+.python {
+  width: 8%;
+  display: inline-block;
+  margin-top: 29px;
+  margin-left: 10px;
+}
+.fastapi {
+  display: inline-block;
+  width: 8%;
+  margin-top: 29px;
+  margin-left: 10px;
+}

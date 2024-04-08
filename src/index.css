@@ -1,20 +1,16 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root {
+  
 }
 
 h1 {
   font-size: 5.2em;
   line-height: 1.1;
 }
-/* <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
 
-/* .montserrat-text {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100px;
-  font-style: normal;
-} */
 .thasadith-regular {
   font-family: "Thasadith", sans-serif;
   font-weight: 400;
@@ -38,4 +34,3 @@ h1 {
   font-weight: 700;
   font-style: italic;
 }
-

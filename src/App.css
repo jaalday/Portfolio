@@ -2,6 +2,7 @@
   max-width: 2280px;
   /* background-color: black; */
   /* background-color: rgb(61, 63, 63); */
+
 }
 
 /* .nav-bar {
@@ -30,24 +31,28 @@
 }
 .img-box {
   display: inline-block;
-  width: 50%;
-  height: 80%;
+  /* width: 50%;
+  height: 80%; */
 
-  background-color: rgb(30, 30, 34);
+  /* background-color: rgb(30, 30, 34); */
 }
 
 .home-img {
-  display: inline-block;
   width: 90%;
-  margin-top: -80px;
+  /* margin-top: -80px; */
+  margin-left: 30%;
+  /* border-radius: 100%; */
 }
 .container1 {
   display: inline-block;
   width: 100%;
+  background-image: url("https://i.pinimg.com/originals/a5/fa/b7/a5fab706a5f27715f1e3ee477412b60b.jpg");
 
-  background-color: rgb(30, 30, 34);
+  /* background-color: rgb(30, 30, 34); */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-attachment: fixed;
 }
+
 .home-text {
   display: inline-block;
   width: 50%;
@@ -56,7 +61,7 @@
   text-align: center;
   color: rgb(245, 215, 211);
   padding-top: 10%;
-  background-color: rgb(30, 30, 34);
+  /* background-color: rgb(30, 30, 34); */
 }
 .paragraph {
   width: 80%;
@@ -71,9 +76,10 @@
 .contact-button {
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
 
-  color: rgb(70, 67, 91);
-  background-color: rgb(212, 101, 234);
+  color: rgb(218, 217, 234);
+  background-color: rgb(37, 46, 85);
   width: 150px;
   height: 40px;
 
@@ -159,53 +165,145 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .card-1 {
+  position: relative;
   display: inline-block;
-  width: 20%;
-  height: 80%;
-  background-color: rgb(243, 208, 198);
-  margin-top: 40px;
-  margin-right: -10px;
-  text-align: center;
+  width: 23%;
+  margin-left: 80px;
+  margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
+  color: aliceblue;
+  transition: 0.5s ease;
 
-  text-decoration: none;
+  backface-visibility: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  transition: 0.5s;
-  color: rgb(46, 46, 100);
 }
 
-.card-1-front {
+.image-card-1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
   height: 100%;
   width: 100%;
-  background-color: antiquewhite;
-}
-.card-1:hover {
-  background-color: rgb(211, 182, 247);
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(71, 71, 100, 0.6);
 }
 
-.card-1-img {
-  width: 100%;
-  border-radius: 10px;
+.card-1:hover .overlay1 {
+  opacity: 1;
 }
+
+.text-card-1 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .card-2 {
+  position: relative;
   display: inline-block;
   width: 20%;
-  height: 50%;
-  background-color: rgb(250, 162, 222);
-  margin-left: 80px;
-  margin-top: 40px;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: 0.5s ease;
+
+  backface-visibility: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.image-card-2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(71, 71, 100, 0.6);
+}
+
+.card-2:hover .overlay {
+  opacity: 1;
+}
+
+.text-card-2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .card-3 {
+  position: relative;
   display: inline-block;
-  width: 20%;
-  height: 50%;
-  background-color: rgb(250, 162, 222);
-  margin-left: 160px;
-  margin-top: 40px;
+  width: 23%;
+  margin-left: 140px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: 0.5s ease;
+
+  backface-visibility: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.image-card-3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(71, 71, 100, 0.6);
+}
+.card-3:hover .overlay3 {
+  opacity: 1;
+}
+.card-3:hover .overlay3 {
+  opacity: 1;
+}
+.text-card-3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .card-4 {
   width: 20%;
   height: 50%;
@@ -215,13 +313,22 @@
   text-align: center;
 }
 .container-2 {
+  margin-top: 5%;
+
   width: 100%;
-  background-color: rgb(30, 30, 34);
+  background-color: rgba(4, 3, 10, 0.4);
+
+  padding-bottom: 10%;
 }
 .h2-projects {
   color: rgb(249, 211, 218);
-  font-size: 50px;
-  text-align: right;
-  margin-right: 50px;
-  padding-top: 20px;
+  margin-left: 45%;
+  font-size: 60px;
+  padding-top: 30px;
+}
+.photo_tailwind {
+  color: white;
+  float: right;
+  margin-right: 10%;
+  margin-top: -500px;
 }
