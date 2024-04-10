@@ -1,50 +1,112 @@
+import Home2CSS from "./Home2.module.css";
 import { Link } from "react-router-dom";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
-
-
+let timelineElements = [
+  {
+    id: 1,
+    title: "Vet Assistant",
+    location: "Greenville Animal Care",
+    description:
+      "Assisted in over 70 surgeries daily at a hight volume spay and neuter clinic. Assisted veterinarians as needed, in surgery or around the clinic. Supervised animals in surgical recovery to ensure they recover correctly and safely.  Sterilized and cleaned surgical equipment.  Filled prescriptions per Vet instructions. Vaccinate and drew blood when necessary for testing. Scanned microscope slides in cytologies and samples to determine types of bacteria or parasites present. ",
+    date: "2019 - 2022",
+  },
+  {
+    id: 2,
+    title: "Artist Manager",
+    location: "Painting with a Twist",
+    description:
+      "Instruct over 100 customers monthly on how to paint chosen paintings, step by step.  Ensure the customers have an enjoyable experience with planned games and one on one instruction. Maintain a clean work environment and work equipment. Train new employees on how to do day to day tasks. ",
+    date: "2018 - 2023",
+  },
+  {
+    id: 3,
+    title: "Shipping/ graphic designer",
+    location: "Tergeted Enterprises",
+    description:
+      "Packed over 50 packages daily and designed weekly Mail Chimp ads. Assisted in research and development for new products to add to the store. Designed logos and sticker layouts using Gimp. Designed images to use in advertisements and product design. Managed customer information through the websites database.",
+    date: "2015 - 2028",
+  },
+];
 
 const Home = () => {
   return (
     <>
-      <div className="container1">
-        <div className="container-1-img">
-          {/* <img src="https://i.pinimg.com/originals/a5/fa/b7/a5fab706a5f27715f1e3ee477412b60b.jpg"/> */}
-          <div className="img-box">
-            <img
-              className="home-img"
-              alt="Picture of portrait Jaclyn Alday"
-              // src="https://i.postimg.cc/rs3FzSSm/jaclyn-pic.png"
-              src="https://i.postimg.cc/L5jcSL6L/20230506-000504.jpg"
-            />
+      <div className={Home2CSS.background}>
+        <div className={Home2CSS.backgroundimg}></div>
+        {/* <img
+          className={Home2CSS.background}
+          src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjcyMi1hdW0tMzFiXzFfMS5qcGc.jpg"
+        /> */}
+        <div className={Home2CSS.container}>
+          <div className={Home2CSS.text1}>
+            {" "}
+            <h1>Hi, I'm Jaclyn</h1>
+            <br />{" "}
+            <h3 className={Home2CSS.text}>
+              A fresh-faced software developer with a diverse background. Before
+              diving into the world of coding, I spent years as a dedicated vet
+              tech, nurturing both animals and my problem-solving skills. I
+              enjoy the creative freedom coding brings and look forward to
+              continue to learn and create.
+              <br />
+              <img
+                className={Home2CSS.react}
+                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                alt="react logo"
+              />
+              <img
+                className={Home2CSS.vite}
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"
+                alt="vite logo"
+              />
+              <img
+                className={Home2CSS.js}
+                src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+                alt="javascript logo"
+              />
+              <img
+                className={Home2CSS.python}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+              />
+              <img
+                className={Home2CSS.fastapi}
+                src="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
+              />
+              <button className={Home2CSS.contactButton}>contact me</button>
+            </h3>
           </div>
-          <div className="home-text">
-            <h1>Jaclyn Alday</h1>
-            <h3>Software Developer</h3>
-            <br />
-
-            <div className="paragraph">
-              <p>
-                {" "}
-                Hello! I'm Jaclyn! a fresh-faced software developer with a
-                colorful past. Before diving into the world of coding, I spent
-                years as a dedicated vet tech, nurturing both animals and my
-                problem-solving skills. I enjoy the creative freedom coding
-                brings and look forward to continue to learn and create.
-                <br />
-                <br />{" "}
-              </p>
-              <div>
-                <Link to="/contact">
-                  <h3 className="contact-button">Contact Me!</h3>
-                </Link>
-              </div>
-            </div>
-          </div>
+          <img
+            className={Home2CSS.profilepic}
+            src="https://i.postimg.cc/Qtg8DqR9/20230506-000504-1.jpg"
+            alt="picture of Jaclyn Alday"
+          />
         </div>
-
         <br />
-        <div className="container-2">
-          <h2 className="h2-projects">Projects</h2>
+        <h2 className={Home2CSS.title}>History</h2>
+        <VerticalTimeline>
+          {timelineElements.map((element) => {
+            return (
+              <VerticalTimelineElement key={element.key} date={element.date}>
+                <h2 className="vertical-timeline-element-title">
+                  {element.title}
+                </h2>
+                <h5 className="vertical-timeline-element-subtitle">
+                  {element.location}
+                </h5>
+                <p id="description">{element.description}</p>
+              </VerticalTimelineElement>
+            );
+          })}
+        </VerticalTimeline>
+
+        <div className={Home2CSS.projects}>
+          <h1>Projects</h1>
+
           <Link to="https://pet-md.netlify.app/">
             <div className="card-1">
               <img
@@ -53,14 +115,20 @@ const Home = () => {
               />
               <div className="overlay1">
                 <div className="text-card-1">
-                  Pet MD is a place to store your pets medical information.
-                  Users can create profiles for their pets, add and edit their
-                  medical information.
+                  <p>
+                    Pet MD is a place to store your pets medical information.
+                    Users can create profiles for their pets, add and edit their
+                    medical information.
+                  </p>
+
+                  <Link to="https://github.com/jaalday/Pet--health/tree/master">
+                    <p className="button1">view github</p>
+                  </Link>
+                  <button className="button2">view site</button>
                 </div>
               </div>
             </div>
           </Link>
-
           <Link to="https://jaalday.itch.io/shooter-kitty">
             <div className="card-2">
               <img
@@ -70,14 +138,20 @@ const Home = () => {
               <div className="overlay">
                 <div className="text-card-2">
                   {" "}
-                  Shooter Kitty is an astroids like game created with python and
-                  pygame.
+                  <p>
+                    Shooter Kitty is an astroids like game created with python
+                    and pygame.
+                  </p>
+                  <div>
+                    <Link to="https://github.com/jaalday/pygame_catgame/blob/main/cat_pygame/test_newgame.py">
+                      <p className="button1">view github</p>
+                    </Link>
+                    <button className="button2">view site</button>
+                  </div>
                 </div>
               </div>
             </div>{" "}
           </Link>
-
-     
           <Link to="https://movie-lookup-jac.netlify.app/">
             <div className="card-3">
               <img
@@ -86,14 +160,18 @@ const Home = () => {
               />
               <div className="overlay3">
                 <div className="text-card-1">
-               Movie Look-up is a site where you can type any movie into the search bar and it shows you every result under that name. Using the OMDB api. 
+                  <p>Movie Look-up is a site where you can type any movie into the
+                  search bar, using the OMDB api.</p>
+                  <div>
+                    <Link to="https://github.com/jaalday/Movie-look-up">
+                      <p className="button1">view github</p>
+                    </Link>
+                    <button className="button2">view site</button>
+                  </div>
                 </div>
               </div>
             </div>
           </Link>
-  
-
-
         </div>
       </div>
     </>

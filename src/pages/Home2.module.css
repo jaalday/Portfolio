@@ -1,36 +1,42 @@
 .background {
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/075/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/067/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/008/555/265/original/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg"); */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
   width: 100%;
   background-attachment: fixed;
   position: static;
 }
 .backgroundimg {
-   
-  background-image: fixed;
+  /* background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjcyMi1hdW0tMzFiXzFfMS5qcGc.jpg"); */
+  background-attachment: fixed;
   width: 100%;
+  height: 990px;
+  background-position: center;
+  opacity: 5;
 }
 
 .container {
   position: absolute;
   margin-top: -1000px;
-
-
   width: 100%;
 }
 .text1 {
-  padding-left: 70px;
-  padding-right: 110px;
-  margin-top: 13%;
-  margin-left: 9%;
+  padding-left: 50px;
+  padding-right: 18%;
+  margin-top: 8%;
+  margin-left: 18%;
   padding-top: 7%;
   width: 60%;
-  background-color: rgba(229, 235, 233, 0.8);
+  background-color: rgba(229, 235, 233, 0.7);
   padding-bottom: 5%;
   font-size: 19px;
   border: 2px solid green;
   color: rgb(58, 91, 58);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .text {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 2.5s ease-in-out;
   font-size: 20px;
   font-weight: bold;
 }
@@ -49,15 +55,27 @@
   margin-right: 10%;
   width: 26%;
   margin-top: -500px;
-  border-radius: 20%;
+  border-radius: 50%;
+  background-color: aliceblue;
+  padding-bottom: -100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .projects {
-  
   margin: auto;
-  width: 100%;
-  height: 400px;
+  width: 80%;
+
   color: antiquewhite;
-  background-color: rgb(61, 80, 51);
+  background-color: rgba(61, 80, 51, 0.8);
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 10%;
+  padding-bottom: 40px;
+}
+.about {
+  width: 80%;
+  background-color: antiquewhite;
+  margin: auto;
+  margin-bottom: 70px;
 }
 .react {
   display: inline-block;
@@ -87,4 +105,33 @@
   width: 8%;
   margin-top: 29px;
   margin-left: 10px;
+}
+.contactButton {
+  background-color: rgb(69, 99, 74);
+  margin-left: 15%;
+  width: 150px;
+  height: 50px;
+  color: aliceblue;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.contactButton:hover {
+  /* background-color: rgb(138, 149, 163); */
+  opacity: 0.6;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+  margin-top: -100px;
+}
+
+.title {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(78, 114, 87);
+  margin-top: -100px;
 }
