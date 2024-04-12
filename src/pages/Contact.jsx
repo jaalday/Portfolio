@@ -5,8 +5,11 @@ const Contact = () => {
         <>
         <div className="contact-container">
             <h1>Contact</h1>
+            <p>email: jaalday123@gmail.com</p>
+          
+          
         </div>
-        <img src="https://ibb.co/GVWfYdT"/>
+       
         </>
     )
 }

@@ -77,7 +77,9 @@ const Home = () => {
                 className={Home2CSS.fastapi}
                 src="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
               />
-              <button className={Home2CSS.contactButton}>contact me</button>
+              <Link to="/contact" >
+                <button className={Home2CSS.contactButton}>Contact Me!</button>
+              </Link>
             </h3>
           </div>
           <img
@@ -160,8 +162,10 @@ const Home = () => {
               />
               <div className="overlay3">
                 <div className="text-card-1">
-                  <p>Movie Look-up is a site where you can type any movie into the
-                  search bar, using the OMDB api.</p>
+                  <p>
+                    Movie Look-up is a site where you can type any movie into
+                    the search bar, using the OMDB api.
+                  </p>
                   <div>
                     <Link to="https://github.com/jaalday/Movie-look-up">
                       <p className="button1">view github</p>
