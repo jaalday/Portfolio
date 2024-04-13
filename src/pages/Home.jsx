@@ -12,7 +12,7 @@ let timelineElements = [
     title: "Vet Assistant",
     location: "Greenville Animal Care",
     description:
-      "Assisted in over 70 surgeries daily at a hight volume spay and neuter clinic. Assisted veterinarians as needed, in surgery or around the clinic. Supervised animals in surgical recovery to ensure they recover correctly and safely.  Sterilized and cleaned surgical equipment.  Filled prescriptions per Vet instructions. Vaccinate and drew blood when necessary for testing. Scanned microscope slides in cytologies and samples to determine types of bacteria or parasites present. ",
+      "Assisted in over 70 surgeries daily at a high volume spay and neuter clinic. Assisted veterinarians as needed, in surgery or around the clinic. Supervised animals in surgical recovery to ensure they recover correctly and safely.  Sterilized and cleaned surgical equipment.  Filled prescriptions per Vet instructions. Vaccinate and drew blood when necessary for testing. Scanned microscope slides in cytologies and samples to determine types of bacteria or parasites present. ",
     date: "2019 - 2022",
   },
   {

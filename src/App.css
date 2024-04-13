@@ -12,6 +12,13 @@
   text-align: center;
   word-spacing: 20%;
 } */
+.background {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  position: static;
+  height: 990px;
+}
 .logo {
   width: 9%;
   float: left;
@@ -127,10 +134,51 @@
   height: 100%;
 }
 .contact-container {
-  display: inline-block;
-  width: 100%;
-  background-color: rgb(61, 63, 63);
-  color: white;
+  width: 40%;
+  height: 500px;
+  background-color: rgba(61, 80, 51, 0.8);
+  color: rgb(249, 231, 228);
+  margin: auto;
+  text-align: center;
+  margin-top: 8%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.input {
+  text-align: center;
+  color: grey;
+  border-radius: 10px;
+}
+.input2 {
+  color: grey;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 20px;
+  color: rgb(70, 95, 70);
+  font-weight: bold;
+}
+.message {
+  width: 250px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: rgb(70, 95, 70);
+  font-weight: bold;
+}
+.send {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: rgb(70, 95, 70);
+  font-weight: bold;
+  font-size: 19px; 
+  transition: 0.5s;
+  border-radius: 10px;
+
+}
+.send:hover{
+  background-color: grey;
 }
 .about-text {
   width: 200%;
