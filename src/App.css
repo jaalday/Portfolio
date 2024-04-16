@@ -136,13 +136,14 @@
 .contact-container {
   width: 40%;
   height: 500px;
-  background-color: rgba(61, 80, 51, 0.8);
+  background-color: rgba(70, 105, 101, 0.8);
   color: rgb(249, 231, 228);
   margin: auto;
   text-align: center;
   margin-top: 8%;
   padding-top: 30px;
   padding-bottom: 40px;
+  border: 2px solid white;
 }
 .input {
   text-align: center;
@@ -172,13 +173,14 @@
   background-color: antiquewhite;
   color: rgb(70, 95, 70);
   font-weight: bold;
-  font-size: 19px; 
+  font-size: 19px;
   transition: 0.5s;
   border-radius: 10px;
-
 }
-.send:hover{
+.send:hover {
   background-color: grey;
+  color:white;
+  border: 2px solid white;
 }
 .about-text {
   width: 200%;
@@ -406,4 +408,18 @@
 .button2:hover {
   opacity: 0.8;
   background-color: rgb(84, 96, 139);
+}
+.vertical-timeline-element-title{
+  font-weight: bold;
+}
+.date {
+  color: white;
+ 
+}
+.vertical-timeline-element-subtitle{
+  color: black;
+}
+.p{
+  color: black;
+  font-size: 18px;
 }
