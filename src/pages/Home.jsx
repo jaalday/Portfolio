@@ -29,7 +29,7 @@ let timelineElements = [
     location: "Tergeted Enterprises",
     description:
       "Packed over 50 packages daily and designed weekly Mail Chimp ads. Assisted in research and development for new products to add to the store. Designed logos and sticker layouts using Gimp. Designed images to use in advertisements and product design. Managed customer information through the websites database.",
-    date: "2015 - 2028",
+    date: "2015 - 2018",
   },
 ];
 
