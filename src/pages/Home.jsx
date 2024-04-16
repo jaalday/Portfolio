@@ -93,7 +93,7 @@ const Home = () => {
         <VerticalTimeline>
           {timelineElements.map((element) => {
             return (
-              <VerticalTimelineElement key={element.key} date={element.date} className="date">
+              <VerticalTimelineElement key={element.key} date={element.date} >
                 <h2 className="vertical-timeline-element-title">
                   {element.title}
                 </h2>
