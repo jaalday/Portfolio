@@ -77,6 +77,7 @@ const Home = () => {
                 className={Home2CSS.fastapi}
                 src="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
               />
+           
               <Link to="/contact" >
                 <button className={Home2CSS.contactButton}>Contact Me!</button>
               </Link>

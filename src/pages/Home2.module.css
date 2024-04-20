@@ -7,7 +7,6 @@
   width: 100%;
   background-attachment: fixed;
   position: static;
- 
 }
 .backgroundimg {
   /* background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjcyMi1hdW0tMzFiXzFfMS5qcGc.jpg"); */
@@ -137,4 +136,36 @@
   text-align: center;
   color: rgb(78, 114, 87);
   margin-top: -100px;
+}
+@media (max-width: 600px) {
+  .text1 {
+    width: 100%;
+    margin: auto;
+  }
+  .profilepic {
+    opacity: 0;
+  }
+  .text {
+    margin: auto;
+  }
+  .react {
+    width: 20%;
+    margin-left: -10px;
+  }
+  .vite {
+    width: 18%;
+    margin-top: 25px;
+  }
+  .js {
+    width: 18%;
+  }
+  .python {
+    width: 16%;
+  }
+  .fastapi {
+    width: 16%;
+  }
+  .contactButton {
+    margin-top: 10px;
+  }
 }
