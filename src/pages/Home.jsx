@@ -9,27 +9,27 @@ import "react-vertical-timeline-component/style.min.css";
 let timelineElements = [
   {
     id: 1,
-    title: "Vet Assistant",
-    location: "Greenville Animal Care",
+    title: "React",
+    location: "Pet MD",
     description:
-      "Assisted in over 70 surgeries daily at a high volume spay and neuter clinic. Assisted veterinarians as needed, in surgery or around the clinic. Supervised animals in surgical recovery to ensure they recover correctly and safely.  Sterilized and cleaned surgical equipment.  Filled prescriptions per Vet instructions. Vaccinate and drew blood when necessary for testing. Scanned microscope slides in cytologies and samples to determine types of bacteria or parasites present. ",
-    date: "2019 - 2022",
+      "Used React for the front end design and overall functionality. I had a time limit of two weeks to design and publish the site from scratch. I used React Router to navigate between pages and used supabase to store the users information and authentication.",
+    
   },
   {
     id: 2,
-    title: "Artist Manager",
-    location: "Painting with a Twist",
+    title: "APIs",
+    location: "Carolina Code School",
     description:
-      "Instruct over 100 customers monthly on how to paint chosen paintings, step by step.  Ensure the customers have an enjoyable experience with planned games and one on one instruction. Maintain a clean work environment and work equipment. Train new employees on how to do day to day tasks. ",
-    date: "2018 - 2023",
+      "Learned and implemented APIs into some of my projects. Used the shopify free API to create a fake e-commerce store. Created our own APIs using Fast API and python. ",
+    
   },
   {
     id: 3,
-    title: "Shipping/ graphic designer",
-    location: "Tergeted Enterprises",
+    title: "Databases",
+    location: "Carolina Code School",
     description:
-      "Packed over 50 packages daily and designed weekly Mail Chimp ads. Assisted in research and development for new products to add to the store. Designed logos and sticker layouts using Gimp. Designed images to use in advertisements and product design. Managed customer information through the websites database.",
-    date: "2015 - 2018",
+      "Created our own local servers and databases using Postgresql. Became familiar with SQL and how to use it to store and retrieve information.",
+    
   },
 ];
 
