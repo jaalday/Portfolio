@@ -90,7 +90,7 @@ const Home = () => {
           />
         </div>
         <br />
-        <h2 className={Home2CSS.title}>History</h2>
+        <h2 className={Home2CSS.title}>Experience</h2>
         <VerticalTimeline>
           {timelineElements.map((element) => {
             return (
