@@ -12,7 +12,7 @@ let timelineElements = [
     title: "React",
     location: "Pet MD",
     description:
-      "Used React for the front end design and overall functionality. I had a time limit of two weeks to design and publish the site from scratch. I used React Router to navigate between pages and used supabase to store the users information and authentication.",
+      "I used React for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
     
   },
   {
@@ -20,7 +20,7 @@ let timelineElements = [
     title: "APIs",
     location: "Carolina Code School",
     description:
-      "Learned and implemented APIs into some of my projects. Used the shopify free API to create a fake e-commerce store. Created our own APIs using Fast API and python. ",
+      "Learned and integrated APIs into some of my projects. I utilized the shopify free API to develop a mock e-commerce store. I also created my own API using Fast API and python. ",
     
   },
   {
