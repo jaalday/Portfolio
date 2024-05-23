@@ -132,7 +132,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link to="https://jaalday.itch.io/shooter-kitty">
+          <Link to="https://itch.io/embed-upload/10107833?color=333333">
             <div className="card-2">
               <img
                 className="image-card-2"
