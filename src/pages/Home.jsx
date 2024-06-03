@@ -12,7 +12,7 @@ let timelineElements = [
     title: "React",
     location: "Pet MD",
     description:
-      "I used React for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
+      "React for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
     
   },
   {
@@ -20,7 +20,7 @@ let timelineElements = [
     title: "APIs",
     location: "Carolina Code School",
     description:
-      "Learned and integrated APIs into some of my projects. I utilized the shopify free API to develop a mock e-commerce store. I also created my own API using Fast API and python. ",
+      "integrated APIs into some of my projects. I utilized the shopify free API to develop a mock e-commerce store. I also created my own API using Fast API and python. ",
     
   },
   {
@@ -28,7 +28,7 @@ let timelineElements = [
     title: "Databases",
     location: "Carolina Code School",
     description:
-      "Created our own local servers and databases using Postgresql. Became familiar with SQL and how to use it to store and retrieve information.",
+      "Created own local servers and databases using Postgresql. Became familiar with SQL and how to use it to store and retrieve information.",
     
   },
 ];
@@ -106,9 +106,10 @@ const Home = () => {
             );
           })}
         </VerticalTimeline>
+        <h1 className={Home2CSS.title2}>Projects</h1>
 
-        <div className={Home2CSS.projects}>
-          <h1>Projects</h1>
+        <div className="projects">
+         
 
           <Link to="https://pet-md.netlify.app/">
             <div className="card-1">
@@ -116,67 +117,77 @@ const Home = () => {
                 className="image-card-1"
                 src="https://i.postimg.cc/fyJ35Rbp/petMd.png"
               />
-              <div className="overlay1">
-                <div className="text-card-1">
-                  <p>
-                    Pet MD is a place to store your pets medical information.
-                    Users can create profiles for their pets, add and edit their
-                    medical information.
-                  </p>
-
-                  <Link to="https://github.com/jaalday/Pet--health/tree/master">
-                    <p className="button1">view github</p>
-                  </Link>
-                  <button className="button2">view site</button>
-                </div>
-              </div>
+             
+           
             </div>
+           
+           
           </Link>
-          <Link to="https://itch.io/embed-upload/10107833?color=333333">
-            <div className="card-2">
-              <img
-                className="image-card-2"
-                src="https://i.postimg.cc/d3rJ01jc/shooter-Kitty.png"
-              />
-              <div className="overlay">
-                <div className="text-card-2">
-                  {" "}
-                  <p>
-                    Shooter Kitty is an astroids like game created with python
-                    and pygame.
-                  </p>
-                  <div>
-                    <Link to="https://github.com/jaalday/pygame_catgame/blob/main/cat_pygame/test_newgame.py">
-                      <p className="button1">view github</p>
-                    </Link>
-                    <button className="button2">view site</button>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-          </Link>
-          <Link to="https://movie-lookup-jac.netlify.app/">
+          <div className="card-2">
+            <h3>Pet MD</h3>
+          <p>
+            A place to store your pets medical records and information, to help ease vet visits. Built with React and supabase for user authentication and data storage. Users can set up profiles for each of their pets with their unique medical information and history.
+          </p>
+          <Link to="https://github.com/jaalday/Pet--health/tree/master">
+          <button className="button"> github</button></Link>
+          <Link to="https://pet-md.netlify.app/">
+          <button className="button"> Site</button></Link>
+          </div>
+    
+          <div>
             <div className="card-3">
+              <h3>Shooter Kitty</h3>
+              <p>
+                A simple game created with Pygame. The player controls the kitty with the arrows and shoots at hearts using the spacebar.
+              </p>
+              
+              <Link to="https://github.com/jaalday/pygame_catgame/blob/main/cat_pygame/test_newgame.py"><button className="button"> Github</button></Link>
+              <Link to="https://itch.io/embed-upload/10107833?color=333333"><button className="button"> Site</button></Link>
+          
+            </div>
+          
+          </div>
+          <div className="card-4">
+           
+            <Link to="https://movie-lookup-jac.netlify.app/">
+            
+            <img
+              className="image-card-1"
+              src="https://i.postimg.cc/HnccTxQm/movie-lookup.png"
+            />
+      
+        
+        </Link>
+          </div>
+         
+          <Link to="https://itch.io/embed-upload/10107833?color=333333">
+            <div className="card-5">
+
+             
               <img
                 className="image-card-1"
-                src="https://i.postimg.cc/HnccTxQm/movie-lookup.png"
+                src="https://i.postimg.cc/d3rJ01jc/shooter-Kitty.png"
               />
-              <div className="overlay3">
-                <div className="text-card-1">
-                  <p>
-                    Movie Look-up is a site where you can type any movie into
-                    the search bar, using the OMDB api.
-                  </p>
-                  <div>
-                    <Link to="https://github.com/jaalday/Movie-look-up">
-                      <p className="button1">view github</p>
-                    </Link>
-                    <button className="button2">view site</button>
-                  </div>
-                </div>
-              </div>
+
             </div>
+
           </Link>
+          <div className="card-6">
+            <h3>Movie Lookup</h3>
+            <p>
+              A site to search for movies using the OMDB API. Users can search for movies by title and see the results displayed.
+            </p>
+           <Link to="https://github.com/jaalday/Movie-look-up"> <button className="button">Github</button></Link>
+            <Link to="https://movie-lookup-jac.netlify.app/"><button className="button">Site</button></Link>
+          </div>
+          <Link to="https://jaclyn-cat-cafe.netlify.app/"><div className="card-7"><img className="image-card-1" src="https://i.postimg.cc/BQvSw4nq/Screen-Shot-2024-06-02-at-2-29-35-PM.png"/></div></Link>
+          <div className="card-8">
+            <h3>Cat Cafe</h3>
+            <p>Mock cat cafe website with an e-commerce store attached. Using react and Shop context.</p>
+            <Link to="https://github.com/jaalday/catCafe"><button className="button">Github</button></Link>
+            <Link to="https://jaclyn-cat-cafe.netlify.app/"><button className="button">Site</button></Link>
+          
+          </div>
         </div>
       </div>
     </>

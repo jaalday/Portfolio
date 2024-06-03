@@ -1,12 +1,13 @@
 .background {
   /* background-image: url("https://wallpaper.dog/large/20395922.jpg"); */
-  /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/075/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/027/742/574/non_2x/circuit-board-dark-blue-technology-background-vector.jpg"); */
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/067/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/008/555/265/original/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg"); */
   background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
   width: 100%;
   background-attachment: fixed;
   position: static;
+  
 }
 .backgroundimg {
   /* background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjcyMi1hdW0tMzFiXzFfMS5qcGc.jpg"); */
@@ -61,18 +62,7 @@
   padding-bottom: -100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.projects {
-  margin: auto;
-  width: 80%;
 
-  color: antiquewhite;
-  background-color: rgba(70, 105, 101, 0.8);
-  text-align: center;
-
-  margin-top: 10%;
-  padding-bottom: 40px;
-  border: 2px solid white;
-}
 .about {
   width: 80%;
   background-color: antiquewhite;
@@ -137,13 +127,23 @@
   color: rgb(78, 114, 87);
   margin-top: -100px;
 }
+.title2{
+  font-size: 80px;
+  text-align: center;
+  color: rgb(78, 114, 87);
+
+}
 @media (max-width: 600px) {
   .text1 {
     width: 100%;
     margin: auto;
   }
+  .projects {
+    width: 100%;
+    margin: auto;
+  }
   .profilepic {
-    opacity: 0;
+ opacity: 0;
   }
   .text {
     margin: auto;
@@ -168,4 +168,7 @@
   .contactButton {
     margin-top: 10px;
   }
+
+
+
 }
