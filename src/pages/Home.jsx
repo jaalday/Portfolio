@@ -48,11 +48,7 @@ const Home = () => {
             <h1>Hi, I'm Jaclyn</h1>
             <br />{" "}
             <h3 className={Home2CSS.text}>
-              A fresh-faced software developer with a diverse background. Before
-              diving into the world of coding, I spent years as a dedicated vet
-              tech, nurturing both animals and my problem-solving skills. I
-              enjoy the creative freedom coding brings and look forward to
-              continue to learn and create.
+            As a newly graduated software developer, I bring a unique perspective from my diverse background. Previously, I spent several years as a veterinary technician, nurturing my love for animals and science. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. 
               <br />
               <img
                 className={Home2CSS.react}
@@ -120,9 +116,8 @@ const Home = () => {
              
            
             </div>
-           
-           
           </Link>
+
           <div className="card-2">
             <h3>Pet MD</h3>
           <p>
