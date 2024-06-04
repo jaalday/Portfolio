@@ -20,7 +20,7 @@ let timelineElements = [
     title: "APIs",
     location: "Carolina Code School",
     description:
-      "integrated APIs into some of my projects. I utilized the shopify free API to develop a mock e-commerce store. I also created my own API using Fast API and python. ",
+      "I integrated APIs into several of my projects, enhancing their functionality and connectivity. This involved leveraging various APIs to streamline data exchange, automate processes, and expand the capabilities of my applications. Through these integrations, I gained valuable experience in working with different API protocols, handling data formats, and troubleshooting integration issues to ensure seamless operation and optimal performance."
     
   },
   {
@@ -28,7 +28,7 @@ let timelineElements = [
     title: "Databases",
     location: "Carolina Code School",
     description:
-      "Created own local servers and databases using Postgresql. Became familiar with SQL and how to use it to store and retrieve information.",
+      "Created own local servers and databases using Postgresql. Became familiar with SQL and how to use it to store and retrieve information. Gained experience with creating tables, inserting data, and querying data.",
     
   },
 ];
