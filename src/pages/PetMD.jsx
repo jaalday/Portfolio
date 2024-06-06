@@ -14,6 +14,8 @@ const PetMD = () => {
    
       <h1 className="title-petmd">PetMD</h1>
 
+   <Link to="/"><img className="logo" src="https://static.vecteezy.com/system/resources/previews/021/948/181/non_2x/3d-home-icon-free-png.png"/></Link>
+
       <div className="pet-container">
         
         

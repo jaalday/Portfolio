@@ -13,10 +13,10 @@
 }
 
 .logo {
-  width: 9%;
+  width: 2%;
   float: left;
-  margin-top: -10px;
-  margin-left: 10px;
+  margin-top: -130px;
+  margin-left: 40px;
 }
 .nav-text {
   text-decoration: none;
@@ -625,7 +625,7 @@
 @media (max-width: 600px) {
   .projects {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 200px;
     grid-template-rows: auto;
     grid-gap: 30px;
     width: 100%;
@@ -754,7 +754,7 @@ margin-top: 5px;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    padding-bottom: 0;
+padding-bottom: 20px;
     background-color: rgba(233, 235, 233, 0.8);
     border: 2px solid green;
 
@@ -775,8 +775,8 @@ margin-top: 5px;
     grid-row-start: 5;
     grid-row-end: 6;
     padding-bottom: 20px;
-    background-color: rgba(233, 235, 233, 0.8);
-    border: 2px solid green;
+    background-color: transparent;
+    border: transparent;
     margin-left: 0;
   }
   .card-5-pet {
@@ -796,8 +796,8 @@ margin-top: 5px;
     grid-row-start: 7;
     grid-row-end: 8;
     padding-bottom: 20px;
-    background-color: rgba(233, 235, 233, 0.8);
-    border: 2px solid green;
+    background-color: transparent;
+    border: transparent;
     margin-right: 0;
     margin-left: 0;
   }
@@ -807,8 +807,8 @@ margin-top: 5px;
     grid-row-start: 8;
     grid-row-end: 9;
     padding-bottom: 0;
-    background-color: rgba(233, 235, 233, 0.8);
-    border: 2px solid green;
+    background-color: transparent;
+    border: transparent;
     margin-left: 0;
 
   }
@@ -829,6 +829,38 @@ margin-top: 5px;
   .project-card{
     width: 300px;
     height: 300px;
+  }
+  .contact-container{
+    width: 90%;
+    height: 500px;
+    background-color: rgba(30, 58, 95, 0.8);
+    color: rgb(177, 231, 156);
+    margin: auto;
+    text-align: center;
+    margin-top: 8%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border: 2px solid rgb(87, 194, 63);
+  }
+  .input{
+    text-align: center;
+    color: grey;
+    border-radius: 10px;
+  }
+  .input2{
+    color: grey;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    color: rgb(70, 95, 70);
+    font-weight: bold;
+  }
+  .logo {
+    width: 6%;
+    float: left;
+    margin-top: -130px;
+    margin-left: 30px;
   }
 
 
