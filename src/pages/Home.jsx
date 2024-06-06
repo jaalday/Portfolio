@@ -6,13 +6,53 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+
+const projects = [
+  {
+    id: 1,
+    title: "Pet MD",
+    img: "https://i.postimg.cc/7671W5Tv/Screen-Shot-2024-06-05-at-12-10-50-PM.png",
+    description:
+      "A place to store your pets medical records and information, to help ease vet visits. Built with React and supabase for user authentication and data storage. Users can set up profiles for each of their pets with their unique medical information and history.",
+    link: "/petmd",
+  },
+  {
+    id: 2,
+    title: "Cat Cafe",
+    img: "https://i.postimg.cc/BQvSw4nq/Screen-Shot-2024-06-02-at-2-29-35-PM.png",
+    description:
+      "Mock cat cafe website with an e-commerce store attached. Using react and Shop context.",
+    link: "/catcafe",
+  },
+  {
+    id: 3,
+    title: "Movie Lookup",
+    img: "https://i.postimg.cc/HnccTxQm/movie-lookup.png",
+    description:
+      "A site to search for movies using the OMDB API. Users can search for movies by title and see the results displayed.",
+    link: "https://movie-lookup-jac.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Shooter Kitty",
+    img: "https://i.postimg.cc/T1tJxrkS/Screen-Shot-2024-06-05-at-11-57-03-AM.png",
+    description:
+      "A simple game created with Pygame. The player controls the kitty with the arrows and shoots at hearts using the spacebar.",
+    link: "https://itch.io/embed-upload/10107833?color=333333",
+  }
+
+]
+
+
+
+
 let timelineElements = [
   {
     id: 1,
     title: "React",
     location: "Pet MD",
     description:
-      "React for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
+      "Utilized react for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
     
   },
   {
@@ -48,7 +88,7 @@ const Home = () => {
             <h1>Hi, I'm Jaclyn</h1>
             <br />{" "}
             <h3 className={Home2CSS.text}>
-            As a newly graduated software developer, I bring a unique perspective from my diverse background. Previously, I spent several years as a veterinary technician, nurturing my love for animals and science. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. 
+            As a newly graduated software developer, I bring a unique perspective from my diverse background. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. 
               <br />
               <img
                 className={Home2CSS.react}
@@ -104,7 +144,27 @@ const Home = () => {
         </VerticalTimeline>
         <h1 className={Home2CSS.title2}>Projects</h1>
 
-        <div className="projects">
+        <div className="projects"> 
+        {
+          projects.map((project) => {
+            return (
+              <div  key={project.id} className="project-card">
+                <a href={project.link}><img className="image-card-project" src={project.img} /></a>
+                <h3 className="project-title">{project.title}</h3>
+              
+               
+              
+
+              </div>
+            )
+        
+                
+        })}
+        </div>
+
+
+
+        {/* <div className="projects">
          
 
           <Link to="https://pet-md.netlify.app/">
@@ -183,7 +243,7 @@ const Home = () => {
             <Link to="https://jaclyn-cat-cafe.netlify.app/"><button className="button">Site</button></Link>
           
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

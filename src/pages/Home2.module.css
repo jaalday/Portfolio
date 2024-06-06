@@ -1,9 +1,9 @@
 .background {
   /* background-image: url("https://wallpaper.dog/large/20395922.jpg"); */
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/027/742/574/non_2x/circuit-board-dark-blue-technology-background-vector.jpg"); */
-  background-image: url("https://wallpapers.com/images/hd/green-and-black-background-with-blue-line-rgq1ux4xrt3hqk9y.jpg");
+  /* background-image: url("https://wallpapers.com/images/hd/green-and-black-background-with-blue-line-rgq1ux4xrt3hqk9y.jpg"); */
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/008/555/265/original/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg"); */
-  /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
   width: 100%;
   background-attachment: fixed;
   position: static;
@@ -33,7 +33,7 @@
   background-color: rgba(229, 235, 233, 0.7);
   padding-bottom: 5%;
   font-size: 19px;
-  border: 3px solid rgb(55, 172, 55);
+  border: 3px solid rgb(51, 117, 51);
   color: rgb(58, 91, 58);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -56,12 +56,12 @@
   float: right;
   margin-right: 10%;
   width: 26%;
-  margin-top: -600px;
+  margin-top: -500px;
   border-radius: 50%;
   background-color: aliceblue;
   padding-bottom: -100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 3px solid rgb(44, 181, 44);
+  border: 3px solid rgb(61, 108, 61);
 }
 
 .about {
@@ -100,7 +100,7 @@
   margin-left: 10px;
 }
 .contactButton {
-  background-image: linear-gradient(to right, rgb(55, 172, 55), rgb(78, 114, 87));
+  background-image: linear-gradient(to right, rgb(37, 63, 129), rgb(78, 114, 87));
   margin-left: 15%;
   width: 150px;
   height: 50px;
@@ -126,14 +126,14 @@
 .title {
   font-size: 80px;
   text-align: center;
-  color: rgb(49, 197, 86);
-  margin-top: -100px;
+  color: rgb(51, 117, 51);
+  margin-top: -200px;
 
 }
 .title2{
   font-size: 80px;
   text-align: center;
-  color: rgb(49, 197, 86);
+  color: rgb(51, 117, 51);
 
 
 }
@@ -144,7 +144,7 @@
   }
   .profilepic {
     width: 70%;
-    margin-top: -1180px;
+    margin-top: -1080px;
   
     margin-right: 60px;
     

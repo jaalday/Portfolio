@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 
 import Contact from './pages/Contact'
+import PetMD from './pages/PetMD'
+import CatCafe from './pages/CatCafe'
 
 import './App.css'
 
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
               path: "/contact",
               element: <Contact/>,
             },
+            {
+              path: "/petmd",
+              element: <PetMD/>,
+            },
+            {
+              path: "/catcafe",
+              element: <CatCafe/>,
+            }
        
         
 
