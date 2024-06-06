@@ -1,5 +1,11 @@
 
 import Home2CSS from  "./Home2.module.css";
+import { Link } from "react-router-dom";
+
+
+
+
+
 
 const CatCafe = () => {
   return (
@@ -13,8 +19,8 @@ const CatCafe = () => {
         <div className="card-1-pet"><img className="img2" src="https://i.postimg.cc/YCnhLy1D/Screen-Shot-2024-05-27-at-3-33-03-PM.png"/></div>
         <div className="card-2-pet"><h2 className="title">What is this?</h2><p className="text">As you can probably tell, I love cats!  It has always been a dream of mine to open a cat cafe, so naturally I built this little passion project. <br/><br/>It has a store attached where you can add items to your cart for purchase. Idealy this business would partner with local rescues and fosters to help get cats exposure and possible homes.</p>
         <div>
-        <button type="button" className="button">Github</button>
-        <button type="button" className="button">Site</button>
+      <Link to="https://github.com/jaalday/catCafe"><button type="button" className="button">Github</button></Link>
+      <Link to="https://jaclyn-cat-cafe.netlify.app/">  <button type="button" className="button">Site</button></Link>
         </div>
 
         </div>
