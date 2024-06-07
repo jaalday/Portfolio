@@ -156,7 +156,7 @@ const Home = () => {
                 <h5 className="vertical-timeline-element-subtitle">
                   {element.location}
                 </h5>
-                <p id="description" className="p">{element.description}</p>
+                <p className="p">{element.description}</p>
               </VerticalTimelineElement>
             );
           })}
