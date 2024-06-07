@@ -85,10 +85,10 @@ const Home = () => {
         <div className={Home2CSS.container}>
           <div className={Home2CSS.text1}>
             {" "}
-            <h1>Hi, I'm Jaclyn</h1>
+            <h1 className={Home2CSS.intro}>Hi, I'm Jaclyn</h1>
             <br />{" "}
             <h3 className={Home2CSS.text}>
-            As a newly graduated software developer, I bring a unique perspective from my diverse background. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. 
+            As a newly graduated software developer, I bring a unique perspective from my diverse background. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. Check out my <Link className="link" to="https://github.com/jaalday">Github</Link> and <Link className="link" to ="https://www.linkedin.com/in/jaclyn-alday4/">Linkdin!</Link>
               <br />
               <img
                 className={Home2CSS.react}
@@ -125,8 +125,27 @@ const Home = () => {
             alt="picture of Jaclyn Alday"
           />
         </div>
-        <br />
-        <h2 className={Home2CSS.title}>Experience</h2>
+   
+     
+
+        <div className="projects"> 
+        {
+          projects.map((project) => {
+            return (
+              <div  key={project.id} className="project-card">
+                <a href={project.link}><img className="image-card-project" src={project.img} /></a>
+               
+              
+               
+              
+
+              </div>
+            )
+        
+                
+        })}
+        </div>
+                <h2 className={Home2CSS.title}>Experience</h2>
         <VerticalTimeline>
           {timelineElements.map((element) => {
             return (
@@ -142,25 +161,6 @@ const Home = () => {
             );
           })}
         </VerticalTimeline>
-        <h1 className={Home2CSS.title2}>Projects</h1>
-
-        <div className="projects"> 
-        {
-          projects.map((project) => {
-            return (
-              <div  key={project.id} className="project-card">
-                <a href={project.link}><img className="image-card-project" src={project.img} /></a>
-                <h3 className="project-title">{project.title}</h3>
-              
-               
-              
-
-              </div>
-            )
-        
-                
-        })}
-        </div>
 
 
 

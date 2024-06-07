@@ -26,7 +26,7 @@ const PetMD = () => {
         <div className="card-2-pet">
             <h2 className="title">What is this for?</h2>
             <p className="text">Pet MD is a website for pet owners, where they can fill out forms and have certain medical information at the touch of a finger. <br/><br/>In my experience as a Veterinary Technician many people would not know certain medications their animals were on. This App makes it easy to keep vital information close at hand. </p>
-           <Link to="https://github.com/jaalday/Pet--health/tree/master"><button className="button">Github</button></Link> 
+           <Link to="https://github.com/jaalday/Pet--health/tree/master"><button className="button1">View Github</button></Link> 
         </div>
         <div className="card-3-pet">
             <img className="img" src="https://i.postimg.cc/0yRTLMQ8/Screen-Shot-2024-06-05-at-2-20-32-PM.png"/>

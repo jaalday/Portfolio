@@ -1,6 +1,6 @@
 #root {
   max-width: 1680px;
-  background-color: black;
+  /* background-color: black; */
 
 }
 .background {
@@ -68,6 +68,17 @@
   line-height: 150%;
   text-align: left;
 }
+.link{
+  text-decoration: none;
+  color: rgb(245, 167, 147);
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.5s;
+
+}
+.link:hover{
+  color: rgb(193, 237, 154);
+}
 
 .contact-button {
   text-decoration: none;
@@ -126,7 +137,7 @@
 .contact-container {
   width: 40%;
   height: 500px;
-  background-color: rgba(30, 58, 95, 0.8);
+  background-color: rgb(59, 67, 73);
   color: rgb(177, 231, 156);
   margin: auto;
   text-align: center;
@@ -215,13 +226,13 @@
   grid-gap: 20px;
   grid-auto-rows: 300px;
 
-  background-color: rgba(30, 58, 95, 0.8);
-  width: 90%;
+  background-color: rgb(59, 67, 73);
+  width: 80%;
   margin: auto;
   height: fit-content;
-
-  padding: 7%;
-  border: 2px solid rgb(101, 204, 60);
+margin-top: -240px;
+  padding: 6%;
+  border: 3px solid rgb(124, 196, 124);
 }
 .card-1 {
   grid-column-start: 1;
@@ -373,7 +384,7 @@
   width: 100%;
   height: 400px;
 
-  padding: 8%;
+
  color: white;
  padding-bottom: 20px;
 
@@ -627,9 +638,15 @@
     display: grid;
     grid-template-columns: 200px;
     grid-template-rows: auto;
-    grid-gap: 30px;
+    grid-gap: 0;
     width: 100%;
+    margin-top: 100px;
     
+  }
+  .image-card-project{
+    width: 200px;
+    height: 150px;
+    margin-bottom: -100px;
   }
   .card-1 {
     grid-column-start: 1;
@@ -729,6 +746,7 @@
     width: 100%;
     margin: auto;
     border: 2px solid green;
+    margin-top: 0;
   }
   .text{
     width: 80%;
@@ -812,6 +830,46 @@ padding-bottom: 20px;
     margin-left: 0;
 
   }
+  .card-4-cat{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: transparent;
+   
+  
+  }
+  .card-5-cat{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: transparent;
+    margin-right: 0;
+   
+  }
+  .button{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    margin-left: 34%;
+    justify-content: center;
+    background-color: rgb(68, 106, 75);
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+  }
+  .img2{
+    width: 100%;
+    height: 220px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  }
   .img{
     width: 100%;
     height: 150px;
@@ -833,7 +891,7 @@ padding-bottom: 20px;
   .contact-container{
     width: 90%;
     height: 500px;
-    background-color: rgba(30, 58, 95, 0.8);
+    background-color: rgb(59, 67, 73);
     color: rgb(177, 231, 156);
     margin: auto;
     text-align: center;
@@ -861,6 +919,31 @@ padding-bottom: 20px;
     float: left;
     margin-top: -130px;
     margin-left: 30px;
+  }
+  .button1{
+    width: 110px;
+    height: 50px;
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgb(68, 106, 75);
+    margin-top: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+  }
+  .pet-container2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: 300px;
+  
+    width: 100%;
+    margin: auto;
+    
+  
+    margin-top: 50px;
+  
   }
 
 
