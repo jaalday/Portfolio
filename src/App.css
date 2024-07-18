@@ -4,7 +4,7 @@
 
 }
 .background {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/027/742/574/non_2x/circuit-board-dark-blue-technology-background-vector.jpg");
   width: 100%;
   background-attachment: fixed;
   position: static;
@@ -18,15 +18,53 @@
   margin-top: -130px;
   margin-left: 40px;
 }
+.nav{
+  
+  font-weight: bold;
+  background-color: rgb(22, 22, 23);
+ 
+  height: 60px;
+  width: 100%;
+border-bottom: 5px solid rgb(220, 241, 243);
+  z-index: 100;
+
+}
 .nav-text {
   text-decoration: none;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  color: rgb(90, 140, 90);
-
-  margin-right: 50px;
+ display: inline-block;
+  justify-content: center;
+  color: rgb(239, 240, 240);
+  font-weight: bold;
+  font-size: 20px;
   padding-top: 10px;
+  padding-left: 90px;
+  
+}
+.nav-text2 {
+  text-decoration: none;
+  display: flex;
+ display: inline-block;
+  justify-content: center;
+  color: rgb(239, 240, 240);
+  font-weight: bold;
+  font-size: 20px;
+ 
+  padding-left: 30%;
+  
+}
+.footer{
+  background-color: rgb(22, 22, 23);
+  color: rgb(239, 240, 240);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-size: 20px;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 2px solid rgb(220, 241, 243);
+
 }
 .img-box {
   display: inline-block;
@@ -69,10 +107,10 @@
   text-align: left;
 }
 .link{
-  text-decoration: none;
+ display: inline-block;
   color: rgb(245, 167, 147);
   font-weight: bold;
-  font-size: 22px;
+  font-size: 23px;
   transition: 0.5s;
 
 }
@@ -137,41 +175,44 @@
 .contact-container {
   width: 40%;
   height: 500px;
-  background-color: rgb(59, 67, 73);
-  color: rgb(177, 231, 156);
+
+  color: rgb(185, 248, 246);
   margin: auto;
   text-align: center;
   margin-top: 8%;
   padding-top: 30px;
   padding-bottom: 40px;
-  border: 2px solid rgb(87, 194, 63);
+  border: 2px solid rgb(244, 245, 244);
+  background-color: rgb(22, 22, 23);
 }
 .input {
   text-align: center;
   color: grey;
-  border-radius: 10px;
+ 
 }
 .input2 {
-  color: grey;
-  border-radius: 10px;
+  color: rgb(235, 232, 232);
+  text-align: center;
+
   width: 200px;
   margin-top: 20px;
-  color: rgb(70, 95, 70);
+  color: rgb(87, 90, 87);
   font-weight: bold;
 }
 .message {
   width: 250px;
   height: 100px;
   margin-top: 20px;
-  border-radius: 10px;
-  color: rgb(70, 95, 70);
+
+  color: rgb(52, 53, 52);
   font-weight: bold;
+  text-align: center;
 }
 .send {
   margin-top: 20px;
   width: 100px;
   height: 40px;
-  background-color: antiquewhite;
+  background-color: rgb(154, 234, 241);
   color: rgb(70, 95, 70);
   font-weight: bold;
   font-size: 19px;
@@ -223,16 +264,18 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
   grid-auto-rows: 300px;
 
-  background-color: rgb(59, 67, 73);
+
   width: 80%;
   margin: auto;
   height: fit-content;
-margin-top: -240px;
-  padding: 6%;
-  border: 3px solid rgb(124, 196, 124);
+margin-top: -200px;
+  padding: 5%;
+  border: 3px solid rgb(244, 245, 244);
+  background-color: rgba(22, 22, 23, 0.7);
+  
 }
 .card-1 {
   grid-column-start: 1;
@@ -350,16 +393,17 @@ margin-top: -240px;
 .button{
   display: flex;
 
-  width: 90px;
+  width: 100px;
   margin-left: 39%;
   
   justify-content: center;
  
-  background-color: rgb(68, 106, 75);
+  background-color: rgb(119, 180, 194);
   margin-top: 10px;
   border-radius: 8px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid rgb(11, 11, 11);
+  color: rgb(14, 14, 14);
+  font-weight: bold;
 }
 .button:hover{
   opacity: 0.8;
@@ -427,13 +471,14 @@ margin-top: -240px;
 .button1 {
   width: 150px;
   margin-left: 35%;
-  color: white;
+  color: rgb(27, 27, 27);
   height: 30px;
+  font-weight: bold;
   text-align: center;
-  background-color: rgb(68, 106, 75);
+  background-color: rgb(119, 180, 194);
   margin-top: 10px;
   border-radius: 8px;
-  border: 1px solid white;
+  border: 1px solid rgb(19, 18, 18);
 }
 .button1:hover {
   opacity: 0.8;
@@ -463,21 +508,7 @@ margin-top: -240px;
   color: black;
   font-size: 18px;
 }
-.title-petmd{
-  color: white;
-  font-size: 60px;
 
-  text-align: center;
-  padding-top: 30px;
-  background-color: rgba(38, 51, 68, 0.9);
-  height: 160px;
-  width: 97%;
-  margin: auto;
- border: 2px solid green;
- margin-top: -1000px;
-
-
-}
 .pet-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -489,7 +520,6 @@ margin-top: -240px;
   height: fit-content;
   padding: 7%;
 
-  margin-top: 50px;
 
 }
 .img{
@@ -512,8 +542,8 @@ margin-top: -240px;
   grid-row-start: 1;
   grid-row-end: 3;
   padding-bottom: 20px;
-  background-color: rgb(251, 254, 251);
-  border: 2px solid green;
+  background-color: rgba(22, 22, 23, 0.8);
+  border: 2px solid rgb(249, 250, 249);
 }
 .card-2-cat {
   grid-column-start: 2;
@@ -522,7 +552,7 @@ margin-top: -240px;
   grid-row-end:4;
   padding-bottom: 20px;
   background-color: rgb(251, 254, 251);
-  border: 2px solid green;
+  border: 2px solid rgb(250, 250, 250);
 }
 .card-3-pet {
   grid-column-start: 1;
@@ -530,7 +560,7 @@ margin-top: -240px;
   grid-row-start: 2;
   grid-row-end: 3;
   padding-bottom: 20px;
-  background-color: rgba(233, 235, 233, 0.8);
+  background-color: rgb(22, 22, 23);
   border: 2px solid green;
 }
 .card-4-pet {
@@ -539,8 +569,8 @@ margin-top: -240px;
   grid-row-start: 3;
   grid-row-end: 4;
   padding-bottom: 20px;
-  background-color: rgba(233, 235, 233, 0.8);
-  border: 2px solid green;
+ 
+  
   margin-left: 19%;
 }
 .title{
@@ -548,11 +578,12 @@ margin-top: -240px;
   font-size: 60px;
   text-align: center;
   padding-top: 30px;
-  background-color: rgba(38, 51, 68, 0.9);
+  border: 2px solid rgb(244, 245, 244);
+  background-color: rgb(22, 22, 23);
   height: 130px;
   width: 100%;
   margin: auto;
-  border: 2px solid green;
+  border: 2px solid rgb(249, 250, 249);
 
 }
 .text{
@@ -563,7 +594,7 @@ margin-top: -240px;
   font-size: 120%;
   line-height: 150%;
   text-align: left;
-  color: rgb(46, 48, 85);
+  color: rgb(236, 236, 238);
   margin-top: 10%;
   font-weight: bold;
 
@@ -574,8 +605,8 @@ margin-top: -240px;
   grid-row-start: 3;
   grid-row-end: 4;
   padding-bottom: 20px;
-  background-color: rgba(233, 235, 233, 0.8);
-  border: 2px solid green;
+  background-color: rgb(22, 22, 23);
+  border: 2px solid rgb(248, 248, 248);
   margin-right: -15%;
 }
 .card-6-pet {
@@ -584,8 +615,8 @@ margin-top: -240px;
   grid-row-start: 4;
   grid-row-end: 5;
   padding-bottom: 20px;
-  background-color: rgba(233, 235, 233, 0.8);
-  border: 2px solid green;
+  
+ 
   margin-right: -15%;
   
 }
@@ -596,7 +627,7 @@ margin-top: -240px;
   grid-row-end: 5;
   padding-bottom: 20px;
   background-color: rgba(233, 235, 233, 0.8);
-  border: 2px solid green;
+  
   margin-left: 20%;
 
 }
@@ -632,7 +663,7 @@ margin-top: -240px;
   height: fit-content;
   padding: 7%;
 
-  margin-top: 50px;
+
 
 }
 .img2{
@@ -641,11 +672,171 @@ margin-top: -240px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 
 }
-.img3{
+.imgPet{
   width: 100%;
   height: 240px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+/* about section */
+.title2{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30px;
+  border: 2px solid rgb(244, 245, 244);
+  background-color: rgba(22, 22, 23, 0.7);
+  border-bottom: 3px solid white;
+  height: 130px;
+  width: 100%;
+
+}
+.about-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: 300px;
+  /* background-color: rgba(223, 231, 225, 0.7); */
+  width: 97%;
+  margin: auto;
+  height: fit-content;
+  padding: 7%;
+}
+.about-box1{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+ margin-bottom: 20px;
+  background-color: rgba(22, 22, 23, 0.8);
+  border: 2px solid rgb(251, 252, 251);
+  color: white;
+
+}
+.about-text2{
+  width: 80%;
+ 
+  margin: auto;
+  word-spacing: 5px;
+  animation: fadeIn 1s ease-in-out;
+  font-size: 19px;
+  line-height: 150%;
+  text-align: left;
+  color: white;
+  margin-top: 45px;
+  font-weight: bold;
+
+}
+.about-box2{
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+ 
+
+}
+.about-box3{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+ 
+}
+/* movie page */
+.movie-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: 300px;
+
+  width: 97%;
+  margin: auto;
+  height: fit-content;
+  padding: 7%;
+
+}
+.movie-box1{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 20px;
+  /* background-color: rgba(22, 22, 23, 0.8); */
+ 
+
+  color: white;
+
+}
+.movie-box2{
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: 20px;
+  background-color: rgba(22, 22, 23, 0.8);
+  border: 2px solid rgb(251, 252, 251);
+  color: white;
+
+
+}
+.button3{
+  display: flex;
+  width: 100px;
+  height: 30px;
+  margin-left: 39%;
+  justify-content: center;
+  background-color: rgb(119, 180, 194);
+  margin-top: -15%;
+  border-radius: 8px;
+  border: 1px solid rgb(11, 11, 11);
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+
+}
+.button3:hover{
+  opacity: 0.8;
+  background-color: rgb(84, 96, 139);
+}
+.text2{
+  width: 80%;
+  margin: auto;
+  word-spacing: 5px;
+  animation: fadeIn 1s ease-in-out;
+  font-size: 120%;
+  line-height: 150%;
+  text-align: left;
+  color: rgb(236, 236, 238);
+  margin-top: 2%;
+  font-weight: bold;
+
+}
+.img3{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+.resume-container{
+  width: 80%;
+  height: fit-content;
+  
+}
+.img4{
+  width: 60%;
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 600px) {
@@ -904,14 +1095,14 @@ padding-bottom: 20px;
   .contact-container{
     width: 90%;
     height: 500px;
-    background-color: rgb(59, 67, 73);
-    color: rgb(177, 231, 156);
+    background-color: rgb(37, 37, 38);
+    color: rgb(241, 244, 239);
     margin: auto;
     text-align: center;
     margin-top: 8%;
     padding-top: 30px;
     padding-bottom: 40px;
-    border: 2px solid rgb(87, 194, 63);
+    border: 2px solid rgb(245, 246, 244);
   }
   .input{
     text-align: center;
@@ -969,6 +1160,79 @@ padding-bottom: 20px;
     color: rgb(46, 48, 85);
     margin-top: 5px;
     font-weight: bold;
+  }
+  .movie-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 300px;
+  
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+ 
+  }
+  .movie-box1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-bottom: 20px;
+    
+   
+  
+    color: white;
+  }
+  .movie-box2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-bottom: 5px;
+    background-color: rgba(22, 22, 23, 0.8);
+    border: 2px solid rgb(251, 252, 251);
+    color: white;
+  }
+  .about-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: 300px;
+    /* background-color: rgba(223, 231, 225, 0.7); */
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    padding: 7%;
+  }
+  .about-box1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-bottom: 20px;
+    /* background-color: rgba(22, 22, 23, 0.8); */
+   
+  
+    color: white;
+  }
+  .about-box2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .about-box3{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 140px;
+    border-top: 3px solid white;
   }
 
 

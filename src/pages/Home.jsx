@@ -7,6 +7,9 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 
+    
+
+
 const projects = [
   {
     id: 1,
@@ -30,7 +33,7 @@ const projects = [
     img: "https://i.postimg.cc/HnccTxQm/movie-lookup.png",
     description:
       "A site to search for movies using the OMDB API. Users can search for movies by title and see the results displayed.",
-    link: "https://movie-lookup-jac.netlify.app/",
+    link: "/movie",
   },
   {
     id: 4,
@@ -38,8 +41,25 @@ const projects = [
     img: "https://i.postimg.cc/T1tJxrkS/Screen-Shot-2024-06-05-at-11-57-03-AM.png",
     description:
       "A simple game created with Pygame. The player controls the kitty with the arrows and shoots at hearts using the spacebar.",
-    link: "https://itch.io/embed-upload/10107833?color=333333",
-  }
+    link: "/laserkitty",
+  },
+  // {
+  //   id: 5,
+  //   title: "Phone Book",
+  //   img: "https://i.postimg.cc/KYZn4xwN/Screen-Shot-2024-07-17-at-12-24-05-PM.png",
+  //   description:
+  //     "A weather app that uses the Open Weather API to display the current weather in a city. Users can search for a city and see the current weather conditions.",
+  //   link: "/phonebook",
+
+  // },
+  // {
+  //   id: 6,
+  //   title: "Music App",
+  //   img: "https://i.postimg.cc/QCvgjwcQ/Screen-Shot-2024-07-16-at-4-29-32-PM.png",
+  //   description:
+  //     "A weather app that uses the Open Weather API to display the current weather in a city. Users can search for a city and see the current weather conditions.",
+  //     link: "/weatherapp",
+  // }
 
 ]
 
@@ -49,10 +69,10 @@ const projects = [
 let timelineElements = [
   {
     id: 1,
-    title: "React",
+    title: "Full Stack Applications",
     location: "Pet MD",
     description:
-      "Utilized react for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and authentication."
+      "Utilized react for the frontend design and core functionality, delivering within a tight two-week deadline from conceptualization to deployment. Implementing React Router for seamless page navigation and Supabase for user data management and user authentication."
     
   },
   {
@@ -88,7 +108,13 @@ const Home = () => {
             <h1 className={Home2CSS.intro}>Hi, I'm Jaclyn</h1>
             <br />{" "}
             <h3 className={Home2CSS.text}>
-            As a newly graduated software developer, I bring a unique perspective from my diverse background. Coding has become a new way for me to express my creativity and problem-solving skills. I am excited to bring my unique perspective to your team. Check out my <Link className="link" to="https://github.com/jaalday">Github</Link> and <Link className="link" to ="https://www.linkedin.com/in/jaclyn-alday4/">Linkdin!</Link>
+           A Software Developer with hands-on experience in React, Python, JavaScript, FastAPI, HTML5, CSS and SQL. Skilled in building and maintaining web applications, with a strong foundation in both front-end and back-end development.  Check out my <a className="link"  href = "https://www.linkedin.com/in/jaclyn-alday4/" target = "_blank" rel = "noopener noreferrer">Linkedin</a> and <a className="link"  href = "https://github.com/jaalday" target = "_blank" rel = "noopener noreferrer">GitHub!</a>
+            
+            
+       
+
+
+           
               <br />
               <img
                 className={Home2CSS.react}
@@ -129,6 +155,7 @@ const Home = () => {
      
 
         <div className="projects"> 
+    
         {
           projects.map((project) => {
             return (

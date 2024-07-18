@@ -1,12 +1,13 @@
 .background {
   /* background-image: url("https://wallpaper.dog/large/20395922.jpg"); */
-  /* background-image: url("https://static.vecteezy.com/system/resources/previews/027/742/574/non_2x/circuit-board-dark-blue-technology-background-vector.jpg"); */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/027/742/574/non_2x/circuit-board-dark-blue-technology-background-vector.jpg");
   /* background-image: url("https://wallpapers.com/images/hd/green-and-black-background-with-blue-line-rgq1ux4xrt3hqk9y.jpg"); */
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/008/555/265/original/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg"); */
-  background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg");
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/non_2x/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg"); */
   width: 100%;
   background-attachment: fixed;
   position: static;
+ 
   
 }
 .backgroundimg {
@@ -30,10 +31,10 @@
   /* margin-left: 18%; */
   padding-top: 7%;
   width: 80%;
-  background-color: rgb(59, 67, 73);
+  background-color: rgba(22, 22, 23, 0.7);
   padding-bottom: 5%;
   font-size: 19px;
-  border: 3px solid rgb(124, 196, 124);
+  border: 3px solid rgb(250, 252, 250);
   color: rgb(237, 239, 237);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: auto;
@@ -62,7 +63,7 @@
   background-color: aliceblue;
   padding-bottom: -100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 3px solid rgb(124, 196, 124);
+  border: 3px solid rgb(242, 247, 242);
 }
 
 .about {
@@ -109,7 +110,7 @@
   border-radius: 10px;
   margin-top: 10px;
   transition: 0.3s;
-  border: 2px solid rgb(54, 193, 54);
+  border: 2px solid rgb(250, 251, 250);
 }
 
 
@@ -128,8 +129,8 @@
 .title {
   font-size: 80px;
   text-align: center;
-  color: rgb(51, 117, 51);
-  margin-top: 100px;
+  color: rgb(247, 247, 247);
+  
 
 }
 .title2{

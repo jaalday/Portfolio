@@ -1,46 +1,31 @@
 import { Link} from "react-router-dom";
+import Home2CSS from  "./Home2.module.css";
 
 const About = () => {
   return (
-    <>
-      <div className="contact-container-main">
-        <img
-          className="contact-container-main"
-          src="https://www.maypro.com/cdn/shop/files/Florabella_Banner_2048x.jpg?v=1614782945"
-        />
-        <div className="about-box">
-          <h1>About</h1>
-          <p className="about-text">
-           A newly certified full stack
-            developer from Carolina Code School. I am a determined individual transitioning from the vet
-            world into the dynamic world of tech. 
-            Animals and art have always been at the
-            forefront of my life, and I look forward to utilizing my past
-            experience in my new career path. Scroll down to view some of my projects!<br />
-          </p>
+    <div className={Home2CSS.background}>
+      <h1 className="title2"> About Me!</h1>
+      <div className="about-container">
+        <div className="about-box1">
+          <h4 className="about-text2">
+          Hello! My name is Jaclyn. I am a full stack developer with a passion for creating. If my projects haven't given it away, I absolutely love cats and enjoy sneaking them into my code. I have three cats of my own, and when i'm not coding, you can usually find me relaxing with them or painting. <br/><br/> I thoroughly enjoy comradery and making people laugh. life is too short to be serious all the time! I also love being outdoors, especially camping and hiking in the mountains.<br/><br/> I'm passionate about learning and always look for ways to improve my skills, as well as helping others with theirs. <br/><br/> </h4>
+
         </div>
+        <div className="about-box2"><img src="https://i.postimg.cc/kGgKRYfr/Screenshot-20240716-140716-Gallery-1.jpg"/> <img src="https://i.postimg.cc/k47Zp8nJ/Screenshot-20240716-135512-Gallery.jpg"/> </div>
+
+
+        <div className="about-box3">
+        <img src="https://i.postimg.cc/Hn8vRt7y/Screenshot-20240716-135237-Gallery-1.jpg"/>
       </div>
-      <h2 className="info-title">Projects</h2>
+
+      </div>
+      
 
 
-      <div className="info-box-about">
-        
-        <div className="card-1"><Link to="https://pet-md.netlify.app/">
-            <img className="card-1-img"src="https://www.catster.com/wp-content/uploads/2023/12/male-veterinarian-doctor-with-stethoscope-holding-cute-fluffy-cat_Yana-Vasileva_Shutterstock.jpg"/>
-        
-        Pet MD</Link>
-       
-     <p>A Place to store your pets medical information. Pet MD allows you to create profiles for your pets and edit their medical info.</p>
+
+    </div>
      
-     </div>
-
-        
-
-        <div className="card-2">dlfjhaj</div>
-        <div className="card-3">;sdlkfj;lkj</div>
-        <div className="card-4">;iwurpowi</div>
-      </div>
-    </>
+      
   );
 };
 
